@@ -15,10 +15,16 @@ h1 {
 h4 {
   margin-bottom: 20px;
 }
+
+.github-link,
 h1,
 h4 {
   margin-left: 150px;
   padding: 10px;
   max-width: 900px;
   text-align: center;
+}
+
+.github-link {
+  margin: 80px;
 }
