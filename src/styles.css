@@ -1,5 +1,6 @@
 .container {
   margin: 30px, auto;
+  margin-left: 400px;
   padding: 30px;
   max-width: 900px;
 }
@@ -18,7 +19,7 @@ h4 {
 
 h1,
 h4 {
-  margin-left: 150px;
+  margin-left: 250px;
   padding: 10px;
   max-width: 900px;
   text-align: center;
