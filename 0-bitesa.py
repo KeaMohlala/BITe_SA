@@ -7,6 +7,7 @@ from wtforms.validators import DataRequired
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'bite sa recipe finder'
 
+
 class NameForm(FlaskForm):
     name = StringField('Add Ingredients', validators=[DataRequired()])
     submit = SubmitField('Submit')
@@ -21,5 +22,5 @@ def index():
     return render_template('index.html', form=form)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
