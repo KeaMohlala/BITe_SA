@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>BITe SA</h1>
+    <h4>Recipes Found</h4>
+    <ul>
+        {% for recipe in recipes %}
+            <li>{{ recipe.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
